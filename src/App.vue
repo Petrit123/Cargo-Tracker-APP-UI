@@ -1,16 +1,13 @@
 <template>
   <div id="app">
-  <router-view/>
+  <router-view></router-view>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'App',
-  data: () => ({
-    //
-  }),
-};
+  name: 'App'
+}
 </script>
 
 <style>
@@ -22,20 +19,16 @@ export default {
   color: #F5FFFA;
   font-weight: bold;
   position: relative;
-}
-body {
+}body {
   background-image:    
       linear-gradient(
-      rgba(0, 0, 0, 0.5),
-      rgba(0, 0, 0, 0.5)
+      rgba(0, 0, 0, 0.6),
+      rgba(0, 0, 0, 0.6)
     ),
-  url('./assets/cargo-tracker.png');
+  url('./assets/cargo-tracker.jpeg');
     background-attachment: fixed;
   background-size: cover;
   background-size: cover;
 }
-img {
-    max-width: 100%;
-    max-height: 100%;
-}
+
 </style>
